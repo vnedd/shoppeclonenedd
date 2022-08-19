@@ -1,0 +1,85 @@
+:root {
+    --header-height: 120px;
+    --white-color: #fff;
+    --black-color: #000; 
+    --blur-color: #757575;
+    --border-color: #ddd;
+    --primary-color: #EE4D2D;
+    --separate-height: 16px;
+    --sub-navbar-height: 30px;
+    --header-navbar: 34px;
+    --header-navbar-mobile: 0;
+    --header-search-contain: 40px;
+    --backgrond-body-category: #f5f5f5;
+    --btn-height: 34px;
+}
+
+/* only shopee */
+.row-shopee {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+.col-shopee {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+@keyframes headerGrowthMenubar {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+
+    }
+}
+
+@keyframes FadeToptoCenter {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+
+    }
+}
+
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-100%);
+    }
+    55%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-200%);
+    }
+    80%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(-300%);
+    }
+}

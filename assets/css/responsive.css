@@ -1,0 +1,43 @@
+
+@media (max-width: 1023px) {
+    .product__filter-page,
+    .body__home-shopee-mall-list {
+        display: none;
+    }
+    .body__home-shopee-mall-brand-list {
+        display: flex;
+        flex-direction: row;
+    }
+    .product__contain,
+    .home__body-suggestion-container {
+        margin: 10px 5px;
+    }
+    .body__home-contentinfo-contain,
+    .footer__app-top-coppyright,
+    .body__home-footerinfo-contain {
+        text-align: center;
+    }
+    .footer__app-top {
+    margin: 0 5px;
+    }
+    .header__app {
+        height: calc(var(--header-height) - var(--header-navbar)) ;
+    }
+    .header__navbar {
+        display: none;
+    }
+    .body__slide {
+        margin-top: 10px;
+    }
+    
+}
+
+
+@media (max-width: 739px) {
+
+
+}
+
+@media (min-width: 740px) and (max-width: 1023px) {
+
+}
