@@ -10,7 +10,7 @@
     }
     .product__contain,
     .home__body-suggestion-container {
-        margin: 10px 5px;
+        margin: 10px;
     }
     .body__home-contentinfo-contain,
     .footer__app-top-coppyright,
@@ -29,6 +29,11 @@
     .body__slide {
         margin-top: 10px;
     }
+    .home__body-trend,
+    .body__home-shopee-mall-brand-list {
+        margin: 0 5px;
+    }
+    
     
 }
 
