@@ -890,6 +890,7 @@
 .home__body-suggestion-product-link {
     text-decoration: none;
     position: relative;
+    color: var(--black-color);
 }
 
 .home__body-suggestion-header {
