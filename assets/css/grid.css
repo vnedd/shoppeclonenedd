@@ -21,6 +21,14 @@
     padding-right: 4px;
 }
 
+.row-sm {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+.col-sm {
+    padding-left: 5px;
+    padding-right: 5px;
+}
 .c-0 {
     display: none;
 }
@@ -154,6 +162,15 @@
     .col {
         padding-left: 8px;
         padding-right: 8px;
+    }
+
+    .row-sm {
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+    .col-sm {
+        padding-left: 5px;
+        padding-right: 5px;
     }
 
     .m-0 {
@@ -315,6 +332,15 @@
         padding-right: 12px;
     }
 
+    .row-sm {
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+    .col-sm {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
     .l-0 {
         display: none;
     }
@@ -470,12 +496,24 @@
         padding-right: 12px;
     }
 
+    .wide .row-sm {
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+    .wide .col-sm {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+
+
     .wide .l-0 {
         display: none;
     }
     
+    
     .wide .l-1,
-    .wide .l-1-2
+    .wide .l-1-2,
     .wide .l-2,
     .wide .l-2-4,
     .wide .l-3,
