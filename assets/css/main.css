@@ -750,6 +750,7 @@
     height: 100px;
     border: 1px solid var(--border-color);
     border-top: none;
+    justify-content: space-evenly;
 }
 
 .home__body-trend-item-info {
