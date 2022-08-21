@@ -22,7 +22,7 @@
     }
     
     .body__slide {
-        margin-top: 10px;
+        margin-top: 0;
     }
     .home__body-suggestion-header,
     .home__body-topsearch,
@@ -114,10 +114,11 @@
         justify-content: space-between;
     }
     
+    .header__search-srch-omb-icon,
     .header__search-cart-icon,
     .header__search-menu-tabmobile-icon {
         font-size: 2.3rem;
-        
+        /* color: #003560; */
     }
     .header__search-logo {
         width: 100px;

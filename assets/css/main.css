@@ -502,8 +502,6 @@
 .header__search-cart-icon {
     font-size: 2.6rem;
     color: var(--white-color);
-    position: relative;
-    z-index: 10;
 }
 /* pc tablet */
 
@@ -735,8 +733,9 @@
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, .2);
+    background-color: #00000033;
     display: none;
+    z-index: 11;
 }
 .header__search-menu-tabmobile {
     width: 140px;
@@ -2170,7 +2169,7 @@
     top: 0;
     bottom: 0;
     display: none;
-    z-index: 10;
+    z-index: 11;
 }
 
 .modal__register {
@@ -2180,7 +2179,7 @@
     top: 0;
     bottom: 0;
     display: none;
-    z-index: 10;
+    z-index: 11;
 }
 
 .modal__overlay {
@@ -2188,7 +2187,7 @@
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, .5);
-    z-index: 10;
+    z-index: 11;
 }
 .modal__close {
     position: absolute;
