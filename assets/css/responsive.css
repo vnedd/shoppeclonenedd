@@ -20,29 +20,124 @@
     .footer__app-top {
     margin: 0 5px;
     }
+    
+    .body__slide {
+        margin-top: 10px;
+    }
+    .home__body-suggestion-header,
+    .home__body-topsearch,
+    .body__home-shopee-mall-contain,
+    .home__body-trend,
+    .body__home-shopee-mall-brand-list {
+        margin: 5px;
+    }
+    .product__filter-page-row {
+        margin-left: auto;
+    }
+    
+}
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    .header__search,
     .header__app {
         height: calc(var(--header-height) - var(--header-navbar)) ;
     }
     .header__navbar {
         display: none;
     }
-    .body__slide {
-        margin-top: 10px;
+    .product__filter-sort {
+        display: none;
     }
-    .home__body-trend,
-    .body__home-shopee-mall-brand-list {
-        margin: 0 5px;
+    .header__search-cart:hover .header__search-cart-contain {
+        display: block;
     }
-    
-    
-}
+    .hide-on-tablet {
+        display: none;
+    }
+ }
+
+
 
 
 @media (max-width: 739px) {
+    .hide-on-mobile {
+        display: none;
+    }
+    .body__slide {
+        margin-top: 0;
+    }
+    .body__home-category-banner {
+        display: none;
+    }
+    .body__home-shopee-mall-contain {
+        display: none;
+    }
+    .product__filter-sort {
+        display: none;
+    }
+    .header__search,
+    .header__app {
+        height: calc(var(--header-height-on-mobile) - var(--header-navbar));
+    }
 
+    .header__navbar {
+        display: none;
+    }
+    .product__filter-page-row-item {
+        width: 30px;
+    }
+    .header__search-contain {
+        display: none;
+    }
+    .header__search-menu-tabmobile {
+        margin-right: 0;
+        width: unset;
+        order: 3;
+        
+    }
+    .header__search {
+        justify-content: space-between;
+    }
+    
+    .header__search-cart-icon,
+    .header__search-menu-tabmobile-icon {
+        font-size: 2.1rem;
+        
+    }
+    .header__search-logo {
+        width: 100px;
+        max-width: 100px;
+        order: 2;
+    }
 
+    .header__search {
+        width: unset;
+    }
+    .header__search-cart {
+        width: unset;
+        order: 1;
+    }
+
+    .header__search-cart-icon {
+        margin-left: -20px;
+    }
+    
+}
+
+@media (min-width: 1024px) {
+    .hide-on-pc {
+        display: none;
+    }
+    .header__search-cart:hover .header__search-cart-contain {
+        display: block;
+    }
 }
 
 @media (min-width: 1024px) and (max-width: 1239px) {
-   
+   .body__home-shopee-mall-img {
+        margin-right: 0px;
+   }
+   .header__search-cart:hover .header__search-cart-contain {
+    display: block;
+}
 }

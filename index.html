@@ -128,11 +128,150 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="header__search-cart">
-                        <i class="header__search-cart-icon fa-solid fa-cart-shopping"></i>
-                        <div class="header__search-cart-contain">
-                            <img src="/assets/img/header_cart/nocart.png" alt="" class="header__search-cart-img">
-                            <p class="header__search-cart-noti">Chưa có sản phẩm</p>
+                    <div class="header__search-cart-search">
+                        <div class="header__search-cart">
+                            <label for="header__search-cart-contain-mobile-checkbox" class="header__search-cart-icon-wrapper">
+                                <i class="header__search-cart-icon fa-solid fa-cart-shopping"></i>
+                            </label>
+                            <div class="header__search-cart-contain hide-on-mobile">
+                                <img src="/assets/img/header_cart/nocart.png" alt="" class="header__search-cart-img">
+                                <p class="header__search-cart-noti">Chưa có sản phẩm</p>
+                            </div>
+                            <div class="header__search-cart-contain-mobile-wrapper hide-on-pc hide-on-tablet">
+                                <input type="checkbox" hidden name="" id="header__search-cart-contain-mobile-checkbox" class="header__search-cart-contain-mobile-input">
+                                <div class="header__search-cart-contain-mobile ">
+                                    <label for="header__search-cart-contain-mobile-checkbox" class="header__search-cart-contain-mobile-close">
+                                        Cancel
+                                    </label>
+                                    <h1 class="header__search-cart-contain-mobile-headding">Your Shopping Cart</h1>
+                                    <p class="header__search-cart-contain-mobile-text">You have no items in your cart</p>
+                                    <img src="/assets/img/header_cart/nocartonmobile.jpg" alt="" class="header__search-cart-contain-mobile-img">
+                                </div>
+                            </div>
+    
+                        </div>
+
+                        <div class="header__search-mobile-search hide-on-pc hide-on-tablet">
+                            <div class="header__search-mobile-search-wrapper-icon">
+                                <i class="header__search-mobile-search-icon fa-solid fa-magnifying-glass"></i>
+                            </div>
+                            <div class="header__search-mobile-search-wrapper-history">
+                                <div class="header__search-mobile-search-content-input-box">
+                                    <input type="text" class="header__search-mobile-search-content-input" placeholder="Nhập để tìm kiếm sản phẩm">
+                                    <div class="header__search-mobile-search-input-content-icon">
+                                        <i class="header__search-mobile-search-input-content-icon-search fa-solid fa-magnifying-glass"></i>
+                                    </div>
+                                </div>
+                                <div class="header__search-mobile-search-wrapper-history-content">
+                                    <ul class="header__search-mobile-search-wrapper-history-list">
+                                        <li class="header__search-mobile-search-wrapper-history-item">Quần Baggy Nam</li>
+                                        <li class="header__search-mobile-search-wrapper-history-item">Balo Nam Nữ</li>
+                                        <li class="header__search-mobile-search-wrapper-history-item">Tẩy Trang Nevia Men</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header__search-menu-tabmobile hide-on-pc hide-on-tablet ">
+                        <input type="checkbox" hidden name="" class="header__search-menu-tabmobile-input" id="header__search-menu-tabmobile-checkbox">
+                        <label for="header__search-menu-tabmobile-checkbox" class="header__search-menu-tabmobile-overlay"></label>
+                        <label for="header__search-menu-tabmobile-checkbox" class="header__search-menu-tabmobile-icon-wrapper">
+                            <i class="header__search-menu-tabmobile-icon fa-solid fa-house"></i>
+                        </label>
+
+                        <div class="header__search-menu-tabmobile-container">
+                            <ul class="menu-tabmobile-container-list">
+                                <li class="menu-tabmobile-container-item menu-tabmobile-container-item-reslog-contain">
+                                    <div class="menu-tabmobile-container-item-hello">Hello!!</div>
+                                    <span class="menu-tabmobile-container-item-reslog">
+                                        <label for="header__search-menu-tabmobile-checkbox" class="menu-tabmobile-container-item-reslog-link js-login-btn">Login</label>
+                                        or
+                                        <lable for="header__search-menu-tabmobile-checkbox" class="menu-tabmobile-container-item-reslog-link js-register-btn">Sign Up</lable>
+                                    </span>
+                                </li>
+                                <li class="menu-tabmobile-container-item">
+                                    <i class="menu-tabmobile-container-item-left-icon fa-solid fa-angle-left"></i>
+                                    <i class="menu-tabmobile-container-item-left-icon fa-solid fa-angle-left"></i>
+                                    <div class="menu-tabmobile-container-item-link">
+                                        <div class="menu-tabmobile-container-item-link-text">Quần Áo Nữ</div>
+                                        <div class="menu-tabmobile-container-item-img-wrapper">
+                                            <img src="https://cf.shopee.vn/file/8b10b0042b41804e9663a08570c6982f" alt="" class="menu-tabmobile-container-item-link-img">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="menu-tabmobile-container-item">
+                                    <i class="menu-tabmobile-container-item-left-icon fa-solid fa-angle-left"></i>
+                                    <div class="menu-tabmobile-container-item-link">
+                                        <div class="menu-tabmobile-container-item-link-text">Giày</div>
+                                        <div class="menu-tabmobile-container-item-img-wrapper">
+                                            <img src="https://cf.shopee.vn/file/ca7100259e6d2dcb130fb9f226868f1a" alt="" class="menu-tabmobile-container-item-link-img">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="menu-tabmobile-container-item">
+                                    <i class="menu-tabmobile-container-item-left-icon fa-solid fa-angle-left"></i>
+                                    <div class="menu-tabmobile-container-item-link">
+                                        <div class="menu-tabmobile-container-item-link-text">Ốp Điện Thoại</div>
+                                        <div class="menu-tabmobile-container-item-img-wrapper">
+                                            <img src="https://cf.shopee.vn/file/3ae55268fc524b3f45990edd9e16af53" alt="" class="menu-tabmobile-container-item-link-img">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="menu-tabmobile-container-item">
+                                    <i class="menu-tabmobile-container-item-left-icon fa-solid fa-angle-left"></i>
+                                    <div class="menu-tabmobile-container-item-link">
+                                        <div class="menu-tabmobile-container-item-link-text">Son</div>
+                                        <div class="menu-tabmobile-container-item-img-wrapper">
+                                            <img src="https://cf.shopee.vn/file/8d30a9b06a4a2c608f877862b32e6261" alt="" class="menu-tabmobile-container-item-link-img">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="menu-tabmobile-container-item">
+                                    <i class="menu-tabmobile-container-item-left-icon fa-solid fa-angle-left"></i>
+                                    <div class="menu-tabmobile-container-item-link">
+                                        <div class="menu-tabmobile-container-item-link-text">Áo Phông</div>
+                                        <div class="menu-tabmobile-container-item-img-wrapper">
+                                            <img src="https://cf.shopee.vn/file/2647ccf73db8f9c2597cf08c623c7865" alt="" class="menu-tabmobile-container-item-link-img">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="menu-tabmobile-container-item">
+                                    <i class="menu-tabmobile-container-item-left-icon fa-solid fa-angle-left"></i>
+                                    <div class="menu-tabmobile-container-item-link">
+                                        <div class="menu-tabmobile-container-item-link-text">Áo Khoác</div>
+                                        <div class="menu-tabmobile-container-item-img-wrapper">
+                                            <img src="https://cf.shopee.vn/file/4b2a0fe7fcd65ae0c82c7d998b3a8b6e" alt="" class="menu-tabmobile-container-item-link-img">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="menu-tabmobile-container-item">
+                                    <i class="menu-tabmobile-container-item-left-icon fa-solid fa-angle-left"></i>
+                                    <div class="menu-tabmobile-container-item-link">
+                                        <div class="menu-tabmobile-container-item-link-text">Áo Croptop</div>
+                                        <div class="menu-tabmobile-container-item-img-wrapper">
+                                            <img src="https://cf.shopee.vn/file/36681386aa67c57d7e97ab0d2adcae36" alt="" class="menu-tabmobile-container-item-link-img">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="menu-tabmobile-container-item">
+                                    <i class="menu-tabmobile-container-item-left-icon fa-solid fa-angle-left"></i>
+                                    <div class="menu-tabmobile-container-item-link">
+                                        <div class="menu-tabmobile-container-item-link-text">Túi Đeo Chéo</div>
+                                        <div class="menu-tabmobile-container-item-img-wrapper">
+                                            <img src="https://cf.shopee.vn/file/765c90e4b83e64cb360697a89d2adc8d" alt="" class="menu-tabmobile-container-item-link-img">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="menu-tabmobile-container-item">
+                                    <i class="menu-tabmobile-container-item-left-icon fa-solid fa-angle-left"></i>
+                                    <div class="menu-tabmobile-container-item-link">
+                                        <div class="menu-tabmobile-container-item-link-text">Áo Thun</div>
+                                        <div class="menu-tabmobile-container-item-img-wrapper">
+                                            <img src="https://cf.shopee.vn/file/aa9b519a401bf2e6540900cccbb366ec" alt="" class="menu-tabmobile-container-item-link-img">
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                     
@@ -451,104 +590,106 @@
                     </div>
                     <div class="row row-sm">
                         <div class="col col-sm l-12 m-12 c-12">
-                            <div class="body__home-shopee-mall-header">
-                                <div class="body__home-shopee-mall-headding">SHOPEE MALL</div>
-                                <ul class="body__home-shopee-mall-list">
-                                    <li class="body__home-shopee-mall-item">
-                                        <i class=" body__home-shopee-mall-icon fa-solid fa-arrow-right-arrow-left"></i>
-                                       <span class="body__home-shopee-mall-text">
-                                            7 Ngày Miễn Phí Trả Hàng
+                            <div class="body__home-shopee-mall-contain">
+                                <div class="body__home-shopee-mall-header">
+                                    <div class="body__home-shopee-mall-headding">SHOPEE MALL</div>
+                                    <ul class="body__home-shopee-mall-list">
+                                        <li class="body__home-shopee-mall-item">
+                                            <i class=" body__home-shopee-mall-icon fa-solid fa-arrow-right-arrow-left"></i>
+                                           <span class="body__home-shopee-mall-text">
+                                                7 Ngày Miễn Phí Trả Hàng
+                                           </span> 
+                                        </li>
+                                        <li class="body__home-shopee-mall-item">
+                                            <i class="body__home-shopee-mall-icon fa-solid fa-check"></i>
+                                           <span class="body__home-shopee-mall-text">
+                                                Hàng Chính Hãng 100%
+                                           </span> 
+                                        </li>
+                                        <li class="body__home-shopee-mall-item">
+                                            <i class=" body__home-shopee-mall-icon fa-solid fa-truck-fast"></i>
+                                           <span class="body__home-shopee-mall-text">
+                                                Miễn Phí Vận Chuyển
+                                           </span> 
+                                        </li>
+                                    </ul>
+                                    <div class="body__home-shopee-mall-see-all">
+                                       <span class="body__home-shopee-mall-see-all-text">
+                                            Xem Tất Cả
                                        </span> 
-                                    </li>
-                                    <li class="body__home-shopee-mall-item">
-                                        <i class="body__home-shopee-mall-icon fa-solid fa-check"></i>
-                                       <span class="body__home-shopee-mall-text">
-                                            Hàng Chính Hãng 100%
-                                       </span> 
-                                    </li>
-                                    <li class="body__home-shopee-mall-item">
-                                        <i class=" body__home-shopee-mall-icon fa-solid fa-truck-fast"></i>
-                                       <span class="body__home-shopee-mall-text">
-                                            Miễn Phí Vận Chuyển
-                                       </span> 
-                                    </li>
-                                </ul>
-                                <div class="body__home-shopee-mall-see-all">
-                                   <span class="body__home-shopee-mall-see-all-text">
-                                        Xem Tất Cả
-                                   </span> 
-                                    <i class="body__home-shopee-mall-see-all-icon fa-solid fa-circle-chevron-right"></i>
+                                        <i class="body__home-shopee-mall-see-all-icon fa-solid fa-circle-chevron-right"></i>
+                                    </div>
+    
                                 </div>
-
-                            </div>
-                            <div class="body__home-shopee-mall-content">
-                                <div class="row row-sm">
-                                    <div class="col col-sm l-4 m-0 c-0">
-                                        <div class="body__home-shopee-mall-slide">
-                                            <div class="body__home-shopee-mall-wrapper">
-                                                <img src="https://cf.shopee.vn/file/8fbda397f85af2cb88031cdeeb01b447" alt="" class="body__home-shopee-mall-img">
-                                                <img src="https://cf.shopee.vn/file/f6d6504e74397a08228a5967793c8f08" alt="" class="body__home-shopee-mall-img">
-                                                <img src="https://cf.shopee.vn/file/5372c0fcc3343fa68286abd38cc9aa74" alt="" class="body__home-shopee-mall-img">
-                                                <img src="https://cf.shopee.vn/file/0ef1b091e62b89bf88170f916aa5955a" alt="" class="body__home-shopee-mall-img">
+                                <div class="body__home-shopee-mall-content">
+                                    <div class="row row-sm">
+                                        <div class="col col-sm l-4 m-0 c-0">
+                                            <div class="body__home-shopee-mall-slide">
+                                                <div class="body__home-shopee-mall-wrapper">
+                                                    <img src="https://cf.shopee.vn/file/8fbda397f85af2cb88031cdeeb01b447" alt="" class="body__home-shopee-mall-img">
+                                                    <img src="https://cf.shopee.vn/file/f6d6504e74397a08228a5967793c8f08" alt="" class="body__home-shopee-mall-img">
+                                                    <img src="https://cf.shopee.vn/file/5372c0fcc3343fa68286abd38cc9aa74" alt="" class="body__home-shopee-mall-img">
+                                                    <img src="https://cf.shopee.vn/file/0ef1b091e62b89bf88170f916aa5955a" alt="" class="body__home-shopee-mall-img">
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="col col-sm l-8 m-12 c-12">
-                                        <div class="body__home-shopee-mall-brand-list">
-                                            <div class="row row-sm">
-                                                <div class="col col-sm l-3 m-6 c-6">
-                                                    <div class="body__home-shopee-mall-brand-item">
-                                                        <img src="https://cf.shopee.vn/file/65c5851b4c78e19aaac2fa31fed07d76_xhdpi" alt="" class="body__home-shopee-mall-brand-img">
-                                                        <p class="body__home-shopee-mall-brand-text">Mua 1 Tặng 1+</p>
+                                        <div class="col col-sm l-8 m-12 c-12">
+                                            <div class="body__home-shopee-mall-brand-list">
+                                                <div class="row row-sm">
+                                                    <div class="col col-sm l-3 m-6 c-6">
+                                                        <div class="body__home-shopee-mall-brand-item">
+                                                            <img src="https://cf.shopee.vn/file/65c5851b4c78e19aaac2fa31fed07d76_xhdpi" alt="" class="body__home-shopee-mall-brand-img">
+                                                            <p class="body__home-shopee-mall-brand-text">Mua 1 Tặng 1+</p>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <div class="col col-sm l-3 m-6 c-6">
-                                                    <div class="body__home-shopee-mall-brand-item">
-                                                        <img src="https://cf.shopee.vn/file/a6e5f3cb30a25b4f337d65da16e58371_xhdpi" alt="" class="body__home-shopee-mall-brand-img">
-                                                        <p class="body__home-shopee-mall-brand-text">Nhận Quà Liền Tay</p>
+                                                    <div class="col col-sm l-3 m-6 c-6">
+                                                        <div class="body__home-shopee-mall-brand-item">
+                                                            <img src="https://cf.shopee.vn/file/a6e5f3cb30a25b4f337d65da16e58371_xhdpi" alt="" class="body__home-shopee-mall-brand-img">
+                                                            <p class="body__home-shopee-mall-brand-text">Nhận Quà Liền Tay</p>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <div class="col col-sm l-3 m-6 c-6">
-                                                    <div class="body__home-shopee-mall-brand-item">
-                                                        <img src="https://cf.shopee.vn/file/dc9fe22a93ffbeb723e51c26177817d5_xhdpi" alt="" class="body__home-shopee-mall-brand-img">
-                                                        <p class="body__home-shopee-mall-brand-text">Thời Trang Unisex</p>
+                                                    <div class="col col-sm l-3 m-6 c-6">
+                                                        <div class="body__home-shopee-mall-brand-item">
+                                                            <img src="https://cf.shopee.vn/file/dc9fe22a93ffbeb723e51c26177817d5_xhdpi" alt="" class="body__home-shopee-mall-brand-img">
+                                                            <p class="body__home-shopee-mall-brand-text">Thời Trang Unisex</p>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <div class="col col-sm l-3 m-6 c-6">
-                                                    <div class="body__home-shopee-mall-brand-item">
-                                                        <img src="https://cf.shopee.vn/file/507cfb0457dbeb3d96f4a4c306661d32_xhdpi" alt="" class="body__home-shopee-mall-brand-img">
-                                                        <p class="body__home-shopee-mall-brand-text">Mỹ Phẩm Hàng Đầu</p>
+                                                    <div class="col col-sm l-3 m-6 c-6">
+                                                        <div class="body__home-shopee-mall-brand-item">
+                                                            <img src="https://cf.shopee.vn/file/507cfb0457dbeb3d96f4a4c306661d32_xhdpi" alt="" class="body__home-shopee-mall-brand-img">
+                                                            <p class="body__home-shopee-mall-brand-text">Mỹ Phẩm Hàng Đầu</p>
+                                                        </div>
                                                     </div>
+                                                    
                                                 </div>
-                                                
+    
+                                                <div class="row row-sm">
+                                                    <div class="col col-sm l-3 m-6 c-6">
+                                                        <div class="body__home-shopee-mall-brand-item">
+                                                            <img src="https://cf.shopee.vn/file/459eece31c336a92ebcde98565aa6ee6_xhdpi" alt="" class="body__home-shopee-mall-brand-img">
+                                                            <p class="body__home-shopee-mall-brand-text">Thanh Lịch Quyến Rũ</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col col-sm l-3 m-6 c-6">
+                                                        <div class="body__home-shopee-mall-brand-item">
+                                                            <img src="https://cf.shopee.vn/file/d6345470cf173f1ba868b929045df01f_xhdpi" alt="" class="body__home-shopee-mall-brand-img">
+                                                            <p class="body__home-shopee-mall-brand-text">Nâng Niu Bàn Chân Việt</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col col-sm l-3 m-6 c-6">
+                                                        <div class="body__home-shopee-mall-brand-item">
+                                                            <img src="https://cf.shopee.vn/file/af85260da5d668ed01abec079c2ce5ff_xhdpi" alt="" class="body__home-shopee-mall-brand-img">
+                                                            <p class="body__home-shopee-mall-brand-text">Deal Trên Tay</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col col-sm l-3 m-6 c-6">
+                                                        <div class="body__home-shopee-mall-brand-item">
+                                                            <img src="https://cf.shopee.vn/file/c0d59502ec6d5b3a17d0f5e854a9fdd5_xhdpi" alt="" class="body__home-shopee-mall-brand-img">
+                                                            <p class="body__home-shopee-mall-brand-text">Trung Thu Kinh Đô</p>
+                                                        </div>
+                                                    </div>
+                                                </div>   
                                             </div>
-
-                                            <div class="row row-sm">
-                                                <div class="col col-sm l-3 m-6 c-6">
-                                                    <div class="body__home-shopee-mall-brand-item">
-                                                        <img src="https://cf.shopee.vn/file/459eece31c336a92ebcde98565aa6ee6_xhdpi" alt="" class="body__home-shopee-mall-brand-img">
-                                                        <p class="body__home-shopee-mall-brand-text">Thanh Lịch Quyến Rũ</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col col-sm l-3 m-6 c-6">
-                                                    <div class="body__home-shopee-mall-brand-item">
-                                                        <img src="https://cf.shopee.vn/file/d6345470cf173f1ba868b929045df01f_xhdpi" alt="" class="body__home-shopee-mall-brand-img">
-                                                        <p class="body__home-shopee-mall-brand-text">Nâng Niu Bàn Chân Việt</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col col-sm l-3 m-6 c-6">
-                                                    <div class="body__home-shopee-mall-brand-item">
-                                                        <img src="https://cf.shopee.vn/file/af85260da5d668ed01abec079c2ce5ff_xhdpi" alt="" class="body__home-shopee-mall-brand-img">
-                                                        <p class="body__home-shopee-mall-brand-text">Deal Trên Tay</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col col-sm l-3 m-6 c-6">
-                                                    <div class="body__home-shopee-mall-brand-item">
-                                                        <img src="https://cf.shopee.vn/file/c0d59502ec6d5b3a17d0f5e854a9fdd5_xhdpi" alt="" class="body__home-shopee-mall-brand-img">
-                                                        <p class="body__home-shopee-mall-brand-text">Trung Thu Kinh Đô</p>
-                                                    </div>
-                                                </div>
-                                            </div>   
                                         </div>
                                     </div>
                                 </div>
@@ -652,63 +793,82 @@
                         
 
                         <div class="row row-sm">
-                            <div class="col col-sm l-2 m-4 c-4 ">
-                                <div class="home__body-topsearch-list">
-                                    <img src="https://cf.shopee.vn/file/6d1416daa515aaf1a3c1b6c5fc47e07b" alt="" class="home__body-topsearch-item-img">
-                                    <div class="home__body-topsearch-quantity">Bán 170k+ / tháng</div>
-                                    <div class="home__body-topsearch-item-name">Ốp Lưng Iphone</div>
-                                    <div class="home__body-topsearch-hot-icon">
-                                        <p class="home__body-topsearch-hot-icon-text">TOP</p> 
+                            <div class="home__body-topsearch-contain">
+                                <div class="col col-sm l-2 m-4 c-4 ">
+                                    <div class="home__body-topsearch-list">
+                                        <div class="home__body-topsearch-list-img">
+                                            <img src="https://cf.shopee.vn/file/6d1416daa515aaf1a3c1b6c5fc47e07b" alt="" class="home__body-topsearch-item-img">
+                                            <div class="home__body-topsearch-quantity">Bán 170k+ / tháng</div>
+                                        </div>
+                                        <div class="home__body-topsearch-item-name">Ốp Lưng Iphone</div>
+                                        <div class="home__body-topsearch-hot-icon">
+                                            <p class="home__body-topsearch-hot-icon-text">TOP</p> 
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col col-sm l-2 m-4 c-4 ">
-                                <div class="home__body-topsearch-list">
-                                    <img src="https://cf.shopee.vn/file/147755f1e6168a19b320e81e38597fef" alt="" class="home__body-topsearch-item-img">
-                                    <div class="home__body-topsearch-quantity">Bán 190k+ / tháng</div>
-                                    <div class="home__body-topsearch-item-name">Quần Âu Nam</div>
-                                    <div class="home__body-topsearch-hot-icon">
-                                        <p class="home__body-topsearch-hot-icon-text">TOP</p> 
+                                <div class="col col-sm l-2 m-4 c-4 ">
+                                    <div class="home__body-topsearch-list">
+                                        <div class="home__body-topsearch-list-img">
+                                            <img src="https://cf.shopee.vn/file/147755f1e6168a19b320e81e38597fef" alt="" class="home__body-topsearch-item-img">
+                                            <div class="home__body-topsearch-quantity">Bán 190k+ / tháng</div>
+
+                                        </div>
+                                        <div class="home__body-topsearch-item-name">Quần Âu Nam</div>
+                                        <div class="home__body-topsearch-hot-icon">
+                                            <p class="home__body-topsearch-hot-icon-text">TOP</p> 
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col col-sm l-2 m-4 c-4 ">
-                                <div class="home__body-topsearch-list">
-                                    <img src="https://cf.shopee.vn/file/34f639248c0c5145f9156cf9a5db9d35" alt="" class="home__body-topsearch-item-img">
-                                    <div class="home__body-topsearch-quantity">Bán 200k+ / tháng</div>
-                                    <div class="home__body-topsearch-item-name">Áo Thun Form Rộng</div>
-                                    <div class="home__body-topsearch-hot-icon">
-                                        <p class="home__body-topsearch-hot-icon-text">TOP</p> 
+                                <div class="col col-sm l-2 m-4 c-4 ">
+                                    <div class="home__body-topsearch-list">
+                                        <div class="home__body-topsearch-list-img">
+                                            <img src="https://cf.shopee.vn/file/34f639248c0c5145f9156cf9a5db9d35" alt="" class="home__body-topsearch-item-img">
+                                            <div class="home__body-topsearch-quantity">Bán 200k+ / tháng</div>
+
+                                        </div>
+                                        <div class="home__body-topsearch-item-name">Áo Thun Form Rộng</div>
+                                        <div class="home__body-topsearch-hot-icon">
+                                            <p class="home__body-topsearch-hot-icon-text">TOP</p> 
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col col-sm l-2 m-4 c-4 ">
-                                <div class="home__body-topsearch-list">
-                                    <img src="https://cf.shopee.vn/file/ba38303ecd2cde06a84a9bbf2fa939be" alt="" class="home__body-topsearch-item-img">
-                                    <div class="home__body-topsearch-quantity">Bán 330k+ / tháng</div>
-                                    <div class="home__body-topsearch-item-name">Vaseline Dưỡng Thể</div>
-                                    <div class="home__body-topsearch-hot-icon">
-                                        <p class="home__body-topsearch-hot-icon-text">TOP</p> 
+                                <div class="col col-sm l-2 m-4 c-4 ">
+                                    <div class="home__body-topsearch-list">
+                                        <div class="home__body-topsearch-list-img">
+                                            <img src="https://cf.shopee.vn/file/ba38303ecd2cde06a84a9bbf2fa939be" alt="" class="home__body-topsearch-item-img">
+                                            <div class="home__body-topsearch-quantity">Bán 330k+ / tháng</div>
+
+                                        </div>
+                                        <div class="home__body-topsearch-item-name">Vaseline Dưỡng Thể</div>
+                                        <div class="home__body-topsearch-hot-icon">
+                                            <p class="home__body-topsearch-hot-icon-text">TOP</p> 
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col col-sm l-2 m-4 c-4 ">
-                                <div class="home__body-topsearch-list">
-                                    <img src="https://cf.shopee.vn/file/6431a52274771497ff3cea935d2812b9" alt="" class="home__body-topsearch-item-img">
-                                    <div class="home__body-topsearch-quantity">Bán 170k+ / tháng</div>
-                                    <div class="home__body-topsearch-item-name">Quần ống Rộng Nữ</div>
-                                    <div class="home__body-topsearch-hot-icon">
-                                        <p class="home__body-topsearch-hot-icon-text">TOP</p> 
+                                <div class="col col-sm l-2 m-4 c-4 ">
+                                    <div class="home__body-topsearch-list">
+                                        <div class="home__body-topsearch-list-img">
+                                            <img src="https://cf.shopee.vn/file/6431a52274771497ff3cea935d2812b9" alt="" class="home__body-topsearch-item-img">
+                                            <div class="home__body-topsearch-quantity">Bán 170k+ / tháng</div>
+
+                                        </div>
+                                        <div class="home__body-topsearch-item-name">Quần ống Rộng Nữ</div>
+                                        <div class="home__body-topsearch-hot-icon">
+                                            <p class="home__body-topsearch-hot-icon-text">TOP</p> 
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col col-sm l-2 m-4 c-4 ">
-                                <div class="home__body-topsearch-list">
-                                    <img src="https://cf.shopee.vn/file/471e6c1bf316b15f80371c5ba0dd98ea" alt="" class="home__body-topsearch-item-img">
-                                    <div class="home__body-topsearch-quantity">Bán 170k+ / tháng</div>
-                                    <div class="home__body-topsearch-item-name">Áo Sơ mi Nam Ngắn Tay</div>
-                                    <div class="home__body-topsearch-hot-icon">
-                                        <p class="home__body-topsearch-hot-icon-text">TOP</p> 
+                                <div class="col col-sm l-2 m-4 c-4 ">
+                                    <div class="home__body-topsearch-list">
+                                        <div class="home__body-topsearch-list-img">
+                                            <img src="https://cf.shopee.vn/file/471e6c1bf316b15f80371c5ba0dd98ea" alt="" class="home__body-topsearch-item-img">
+                                            <div class="home__body-topsearch-quantity">Bán 170k+ / tháng</div>
+
+                                        </div>
+                                        <div class="home__body-topsearch-item-name">Áo Sơ mi Nam Ngắn Tay</div>
+                                        <div class="home__body-topsearch-hot-icon">
+                                            <p class="home__body-topsearch-hot-icon-text">TOP</p> 
+                                        </div>
                                     </div>
                                 </div>
                             </div>

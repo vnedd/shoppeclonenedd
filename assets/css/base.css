@@ -1,5 +1,7 @@
 :root {
     --header-height: 120px;
+    --header-height-on-mobile: 104px;
+    --header-navbar: 34px;
     --white-color: #fff;
     --black-color: #000; 
     --blur-color: #757575;
@@ -7,8 +9,6 @@
     --primary-color: #EE4D2D;
     --separate-height: 16px;
     --sub-navbar-height: 30px;
-    --header-navbar: 34px;
-    --header-navbar-mobile: 0;
     --header-search-contain: 40px;
     --backgrond-body-category: #f5f5f5;
     --btn-height: 34px;
