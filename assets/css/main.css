@@ -631,7 +631,7 @@
     position: relative;
 }
 .header__search-srch-omb-btn {
-    padding: 0 30px 0 20px;
+    padding: 0 20px 0 10px;
 }
 .header__search-srch-omb-icon {
     font-size: 2.1rem;
@@ -649,9 +649,12 @@
     position: absolute;
     top: 40px;
     z-index: 10;
-    min-width: 370px;
+    min-width: 340px;
+    margin-left: 10px;
+    margin-right: 10px;
     max-width: 100%;
-    transform: translateY(-260%);
+    opacity: 0;
+    transform: translatex(-120%);
     transition: transform ease 0.06s, opacity linear 0.3s;
 } 
 .header__search-srch-omb-container-input {
@@ -663,7 +666,7 @@
     border-radius: 3px;
     width: 60px;
     text-align: center;
-    height: calc(var(--header-search-contain) - 10px);
+    height: calc(var(--header-search-contain) - 2px);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -682,10 +685,10 @@
 .header__search-srch-omb-input {
     width: 100%;
     border: 1px solid var(--border-color);
-    padding: 10px;
+    padding: 15px;
     border-radius: 3px;
 }
-.header__search-srch-omb-input:hover ~ .header__search-srch-omb-history{
+.header__search-srch-omb-input:focus ~ .header__search-srch-omb-history{
     display: block;
 }
 
@@ -706,6 +709,7 @@
     color: var(--blur-color);
     font-size: 1.3rem;
     font-weight: 300;
+    cursor: pointer;
 }
 .header__search-srch-omb-history-item:hover {
     background-color: #f3f3f3;
