@@ -40,7 +40,8 @@
 @media (min-width: 740px) and (max-width: 1023px) {
     .header__search,
     .header__app {
-        slider: calc(var(--header-height) - var(--header-navbar)) ;
+        height: calc(var(--header-height) - var(--header-navbar)) ;
+        z-index: 1000;
     }
     .header__navbar {
         display: none;
@@ -53,6 +54,12 @@
     }
     .hide-on-tablet {
         display: none;
+    }
+    .header__search-cart {
+        width: 30px;
+    }
+    .header__search-cart-contain {
+        right: -20px;
     }
  }
 

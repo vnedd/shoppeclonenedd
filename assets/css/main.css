@@ -487,10 +487,6 @@
 
 /* cart */
 
-.header__search-cart-search {
-    display: flex;
-}
-
 
 .header__search-cart {
     width: 140px;
@@ -523,7 +519,7 @@
     min-height: 250px;
     background-color: var(--white-color);
     top: -20px;
-    right: 50%;
+    right: 85px;
     top: var(--sub-navbar-height);
     text-align: center;
     font-size: 1.5rem;
@@ -624,6 +620,107 @@
     opacity: 0.8;
 }
 
+/* search on mobile */
+
+.header__cartsearch {
+    display: flex;
+    align-items: center;
+}
+
+.header__search-srch-omb {
+    position: relative;
+}
+.header__search-srch-omb-btn {
+    padding: 0 30px 0 20px;
+}
+.header__search-srch-omb-icon {
+    font-size: 2.1rem;
+    color: var(--white-color);
+    cursor: pointer;
+}
+
+.header__search-srch-omb-input-checkbox:checked ~ .header__search-srch-omb-container {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+
+.header__search-srch-omb-container {
+    position: absolute;
+    top: 40px;
+    z-index: 10;
+    min-width: 370px;
+    max-width: 100%;
+    transform: translateY(-260%);
+    transition: transform ease 0.06s, opacity linear 0.3s;
+} 
+.header__search-srch-omb-container-input {
+    display: flex;
+}
+
+.header__search-srch-omb-contain-icon {
+    background-color: var(--primary-color);
+    border-radius: 3px;
+    width: 60px;
+    text-align: center;
+    height: calc(var(--header-search-contain) - 10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    margin-right: 2.5px;
+    cursor: pointer;
+    position: absolute;
+    right: 2px;
+    top: 4px;
+}
+
+.header__search-srch-omb-contain-search-icon {
+    color: var(--white-color);
+}
+
+.header__search-srch-omb-input {
+    width: 100%;
+    border: 1px solid var(--border-color);
+    padding: 10px;
+    border-radius: 3px;
+}
+.header__search-srch-omb-input:hover ~ .header__search-srch-omb-history{
+    display: block;
+}
+
+.header__search-srch-omb-history {
+    display: none;
+    z-index: 11;
+}
+
+.header__search-srch-omb-history-list {
+    list-style: none;
+    background-color: var(--white-color);
+    border-radius: 2px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}
+
+.header__search-srch-omb-history-item {
+    padding: 8px;
+    color: var(--blur-color);
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+.header__search-srch-omb-history-item:hover {
+    background-color: #f3f3f3;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -699,7 +796,7 @@
     background-color: var(--white-color);
     width: 300px;
     max-width: 100%;
-    max-height: 90vh;
+    max-height: 100vh;
     overflow-y: auto;
     box-shadow: 0 0 2px rgba(0, 0, 0, .2);
     opacity: 0;
