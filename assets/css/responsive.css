@@ -178,6 +178,10 @@
         width: unset;
         order: 1;
     }
+    .product__info {
+        padding: 0;
+    }
+    
     .product__info-image-share {
         display: none;
     }
@@ -200,7 +204,25 @@
     .product__info-quantity-text {
         display: none;
     }
-
+    .product__info-dcrs-code-discount-item {
+        padding: 3px 2px;
+    }
+    .product__info-dcrs-code-discount-text {
+        width: 70px;
+        margin-right: 10px;
+    }
+    .product__detail-header {
+        margin-bottom: 10px;
+    }
+    .product__info-dcrs-discount {
+        display: none;
+    }
+    .product__info-dcrs-price {
+        justify-content: space-around;
+    }
+    .product__info-dcrs-currentprice {
+        font-size: 2rem;
+    }
 }
 
 @media (min-width: 1024px) {
