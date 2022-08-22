@@ -34,6 +34,48 @@
     .product__filter-page-row {
         margin-left: auto;
     }
+
+
+
+    /* product */
+
+    .product__app-head-link {
+        display: none;
+    }
+    
+    .shop__info-contain {
+        border-right: none;
+    }
+    .shop_info {
+        padding: 5px;
+        margin-top: 5px;
+    }
+    .product__detail {
+        padding: 20px;
+        margin-top: 5px;
+    }
+    .product__ratting {
+        margin-top: 5px;
+    }
+    .product__ratting-cmt-avatar {
+        justify-content: center;
+    }
+    .product__ratting-about-container {
+        display: none;
+    }
+    .product__info {
+        margin-top: 0;
+    }
+
+    .prdinfo__dcrs-status-ratting {
+        padding-right: 5px;
+    }
+    .prdinfo__dcrs-status-rate-quantity-wrapper {
+        padding: 0 10px;
+    }
+    .prdinfo__dcrs-status-sold-quantity-wrapper {
+        padding-left: 10px;
+    }
     
 }
 
@@ -61,6 +103,8 @@
     .header__search-cart-contain {
         right: -20px;
     }
+    
+
  }
 
 
@@ -90,7 +134,6 @@
     .product__filter-page-row {
        display: none;
     }
-    .header__search,
     .header__app {
         height: calc(var(--header-height-on-mobile) - var(--header-navbar));
     }
@@ -112,6 +155,7 @@
     }
     .header__search {
         justify-content: space-between;
+        height: calc(var(--header-height-on-mobile) - var(--header-navbar));
     }
     
     .header__search-cart-icon,
@@ -126,13 +170,35 @@
         max-width: 120px;
         order: 2;
     }
-
     .header__search {
         width: unset;
+       
     }
     .header__search-cart {
         width: unset;
         order: 1;
+    }
+    .product__info-image-share {
+        display: none;
+    }
+    .product__info-color {
+        flex-wrap: wrap;
+    }
+    .product__info-dcrs-code-discount-list {
+        margin-right: 8px;
+    }
+    .product__info-color-name {
+        margin-top: 8px;
+    }
+    .product__info-buy,
+    .product__info-color,
+    .product__info-quantity,
+    .product__info-dcrs-code-discount {
+        margin-top: 20px; 
+
+    }
+    .product__info-quantity-text {
+        display: none;
     }
 
 }
