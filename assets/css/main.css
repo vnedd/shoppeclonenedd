@@ -496,8 +496,10 @@
     position: relative;
     z-index: 11;
 }
+.header__search-menu-tabmobile-icon-wrapper,
 .header__search-cart-icon-wrapper {
     cursor: pointer;
+    padding: 35px 0 13px 0;
 }
 .header__search-cart-icon {
     font-size: 2.6rem;
@@ -2123,6 +2125,7 @@
     background-color: var(--white-color);
     width: 400px;
     min-height: 430px;
+    max-width: calc(100% -16px);
     z-index: 2;
     margin: auto;
     padding: 0 30px;
