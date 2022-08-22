@@ -221,7 +221,7 @@
         justify-content: space-around;
     }
     .product__info-dcrs-currentprice {
-        font-size: 2rem;
+        font-size: 3rem;
     }
 }
 
@@ -240,5 +240,5 @@
    }
    .header__search-cart:hover .header__search-cart-contain {
     display: block;
-}
+    }
 }
