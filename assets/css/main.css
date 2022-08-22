@@ -1311,6 +1311,7 @@
 .home__body-suggestion-product-link:hover .home__body-find-product-similar{
     display: block;
 }
+
 .home__body-suggestion-list:hover {
     transform: translateY(-2px);
     box-shadow: 0 0 8px rgba(0, 0, 0, .2);
@@ -2861,9 +2862,186 @@
 
 
 
+/* product info on mobile */
+.product__info-onmobie {
+    margin-top: 5px;
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+    padding: 5px;
+    cursor: pointer;
+    position: relative;
+}
+
+.product__info-onmobie-choose-prd {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    cursor: pointer;
+}
 
 
+.product__info-onmobie-choose-prd-text {
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: var(--black-color);
+}
 
+.product__info-onmobie-choose-prd-icon {
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: var(--black-color);
+}
+
+.product__info-onmobie-input:checked ~ .product__info-onmobie-wrapper {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.product__info-onmobie-wrapper {
+    padding: 20px;
+    border-radius: 4px;
+    background-color: var(--white-color);
+    position: fixed;
+    top: 20%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+    opacity: 0;
+    transform: translateY(100%);
+    transition: transform linear 0.1s, opacity linear 0.2s;
+    z-index: 10;
+}
+.product__info-onmobie-close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 16px 20px;
+    background-color: var(--primary-color);
+    cursor: pointer;
+}
+
+.product__info-onmobie-close-icon {
+    font-size: 3rem;
+    color: var(--white-color);
+}   
+.product__info-onmobie-close:hover {
+    opacity: 0.8;
+}
+
+
+.product__info-onmobie-imgcontainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 20px;
+}
+.product__info-onmobie-imgcontaimg {
+    width: 40%;
+}
+
+.product__info-onmobie-img {
+    width: 100%;
+    border-radius: 20px;
+    border: 3px solid rgb(0, 35, 95);
+}
+
+.product__info-onmobie-price-contain {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 10px;
+}
+
+.product__info-onmobie-price {
+    font-size: 1.3rem;
+    color: var(--primary-color);
+}
+
+
+.product__info-onmobie-price-ware {
+    font-size: 1.3rem;
+    margin-top: 5px;
+}
+.product__info-onmobie-color-title {
+    padding: 20px 0 10px 0;
+    font-size: 1.4rem;
+    color: var(--black-color);
+}
+
+.product__info-onmobie-color-list {
+    display: flex;
+    padding-bottom: 20px;
+}
+.product__info-onmobie-color-item {
+    background-color: #F5F5F5;
+    text-align: center;
+    font-size: 1.3rem;
+    color: var(black);
+    margin-right: 10px;
+    padding: 8px 20px;
+    min-width: 5rem;
+}
+
+.product__info-onmobie-quantity {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+
+}
+
+.product__info-onmobie-quantity-title {
+    font-size: 1.4rem;
+    color: var(black);
+
+}
+
+.product__info-onmobie-quantity-btn-item {
+    padding: 8px 14px;
+    background-color: transparent;
+    border: 1px solid var(--border-color);
+    border-radius: 3px;
+}
+.product__info-onmobie-quantity-btn-item:nth-child(2) {
+    color: var(--primary-color);
+    padding: 8px 20px;
+}
+.product__info-onmobie-quantity-btn-item:hover {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.product__info-onmobie-buy {
+    display: flex;
+    margin: 20px;
+    justify-content: space-between;
+}
+
+.product__info-onmobie-addtocart {
+    flex: 1;
+    margin-right: 10px;
+    border-radius: 3px;
+    padding: 12px 0;
+    background-color: #06BFA5 ;
+    color: var(--white-color);
+    border: none;
+    font-size: 1.3rem;
+}
+
+.product__info-onmobie-purchase {
+    flex: 1;
+    margin-left: 10px;
+    padding: 12px 0;
+    border-radius: 3px;
+    background-color: var(--primary-color) ;
+    color: var(--white-color);
+    border: none;
+    font-size: 1.3rem;
+
+}
 
 
 

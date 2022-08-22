@@ -231,6 +231,9 @@
         margin-top: 5px;
         padding: 16px 0 4px 0;
     }
+    .product__info-dcrs-status {
+        margin-bottom: 10px;
+    }
 }
 
 @media (min-width: 1024px) {
