@@ -114,15 +114,16 @@
         justify-content: space-between;
     }
     
-    .header__search-srch-omb-icon,
     .header__search-cart-icon,
     .header__search-menu-tabmobile-icon {
-        font-size: 2.3rem;
-        /* color: #003560; */
+        font-size: 3rem;
+        color: #002140;
+        margin: 0 20px;
     }
+    
     .header__search-logo {
-        width: 100px;
-        max-width: 100px;
+        width: 150px;
+        max-width: 150px;
         order: 2;
     }
 
@@ -135,7 +136,6 @@
     }
 
     .header__search-cart-icon {
-        margin-left: -20px;
     }
     
 }
