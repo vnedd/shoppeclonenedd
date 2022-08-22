@@ -54,9 +54,6 @@
     display: block;
 }
 
-.header__download-app-qr {
-
-}
 
 .header__download-app-qr-img {
     border-radius: 2px;
@@ -248,9 +245,6 @@
     top: -12px;
     right: 0;
     cursor: pointer;
-}
-.header__notify-container-body {
-
 }
 
 .header__notify-container-img {
@@ -691,6 +685,7 @@
     margin: 0 5px ;
     color: var(--primary-color);
     padding: 5px;
+    cursor: pointer;
 }
 .header__search-menu-tabmobile-icon-wrapper {
     position: relative;
@@ -721,7 +716,9 @@
     transition: transform linear 0.2s, opacity linear 0.2s;
     z-index: 10;
 }
-
+.header__search-menu-tabmobile-container::-webkit-scrollbar {
+    display: none;
+}
 .header__search-menu-tabmobile-input:checked ~ .header__search-menu-tabmobile-overlay {
     display: block;
 }
@@ -814,7 +811,9 @@
     margin-bottom: 8px;
     overflow: scroll;
 }
-
+.slide__footer::-webkit-scrollbar {
+    display: none;
+}
 .slide__footer-list {
     width: 100px;
     text-align: center;
@@ -857,11 +856,12 @@
 
 .body__home-category-content {
     background-color: var(--white-color);
-    overflow: scroll;
+    overflow: auto;
     display: flex ;
-
 }
-
+.body__home-category-content::-webkit-scrollbar {
+    display: none;
+}
 
 .body__home-category-content-list {
     width: 100%;
@@ -1025,9 +1025,7 @@
     background-color: var(--white-color);
     margin-top: 16px;
 }
-.home__body-trend-content {
-    display: flex;
-}
+
 .home__body-trend-header {
     justify-content: space-between;
     height: 60px;
@@ -1095,9 +1093,6 @@
     margin-top: 4px;
 }
 
-.home__body-trend-item-img {
-
-}
 
 /* top search */
 
@@ -1108,6 +1103,9 @@
 .home__body-topsearch-contain {
     display: flex;
     overflow: auto;
+}
+.home__body-topsearch-contain::-webkit-scrollbar {
+    display: none;
 }
 
 .home__body-topsearch-header {
@@ -1389,10 +1387,6 @@
     margin-top: 15px;
 }
 
-.home__body-suggestion-item-status-like {
-
-}
-
 .home__body-suggestion-item-status-like-icon {
     color: #D5D5D5;
 }
@@ -1437,9 +1431,6 @@
     font-size: 1.3rem;
     margin-right: 5px;
 }
-.home__body-suggestion-item-price-persent {
-}
-
 .home__body-suggestion-item-price-d {
     font-size: 1rem;
     text-decoration: underline;
@@ -1462,6 +1453,7 @@
     width: 100%;
     margin-top: 20px;
     background-color: var(--white-color);
+    color: var(--black-color);
     font-size: 1.3rem;
     font-weight: 300;
     padding: 8px;
@@ -1514,17 +1506,11 @@
     margin-right: 10px;
 }
 
-.body__home-contentinfo-more-icon {
-
-}
 
 .body__home-contentinfo-list {
     list-style: none;
 }
 
-.body__home-contentinfo-item {
-
-}
 
 .body__home-contentinfo-item-link {
     text-decoration: none;
@@ -1543,9 +1529,6 @@
     padding: 40px 0 40px 0;
     border-bottom: 1px solid var(--border-color);
 }
-.body__home-footerinfo-contain {
-
-}
 
 .body__home-footerinfo-headding {
     margin: 16px 0;
@@ -1559,9 +1542,6 @@
 
 }
 
-.body__home-footerinfo-item {
-
-}
 
 .body__home-footerinfo-item-link {
     text-decoration: none;
@@ -1716,6 +1696,7 @@
     background-color: var(--white-color);
     border-radius: 2px;
     cursor: pointer;
+    color: var(--black-color);
 }
 .product__filter-btn:hover {
     opacity: 0.9;
@@ -1799,9 +1780,7 @@
     margin-right: -4px;
 }
 
-.product__filter-quantity-page {
 
-}
 
 .product__filter-page-row {
     margin-left: 10px;
@@ -1867,17 +1846,12 @@
     color: #000000cc;
 }
 
-.prd__category-contain {
-
-}
 
 .prd__category-list {
     list-style: none;
 }
 
-.prd__category-item {
 
-}
 
 .prd__category-link {
     text-decoration: none;
@@ -1905,9 +1879,6 @@
     margin-left: -10px;
 }
 
-.prd__category-fillter {
-
-}
 
 .prd__category-fillter-header {
     line-height: 4rem;
@@ -1915,18 +1886,6 @@
     font-size: 1.6rem;
     margin-bottom: 16px;
     color: #000000cc;
-
-}
-
-.prd__category-fillter-icon {
-
-}
-
-.prd__category-fillter-headding {
-
-}
-
-.prd__category-fillter-contain {
 
 }
 
@@ -1960,9 +1919,6 @@
     transform: translateX(1px);
 }
 
-.prd__category-fillter-contain-form-price {
-
-}
 
 .prd__category-fillter-contain-form-price-input {
     display: flex;
@@ -2135,18 +2091,12 @@
 }
 
 
-.auth-form__header {
-    
-}
-
 .auth-form__heading {
     font-size: 2rem;
     font-weight: 400;
     padding: 30px 0;
 }
-.auth-form__form {
 
-}
 
 .auth-form__group {
     margin-top: 10px;
@@ -2231,9 +2181,6 @@
     font-weight: 300;
 }
 
-.auth-form__policy-text {
-
-}
 
 .auth-form__policy-text-link {
     color: var(--primary-color);

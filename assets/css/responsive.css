@@ -122,8 +122,8 @@
     }
     
     .header__search-logo {
-        width: 150px;
-        max-width: 150px;
+        width: 120px;
+        max-width: 120px;
         order: 2;
     }
 
@@ -135,9 +135,6 @@
         order: 1;
     }
 
-    .header__search-cart-icon {
-    }
-    
 }
 
 @media (min-width: 1024px) {
