@@ -188,12 +188,16 @@
     .product__info-color {
         flex-wrap: wrap;
     }
-    .product__info-dcrs-code-discount-list {
-        margin-right: 8px;
+    .product__info-buy,
+    .product__info-quantity,
+    .product__info-color,
+    .product__info-dcrs-code-discount {
+        display: none;
     }
     .product__info-color-name {
         margin-top: 8px;
     }
+
     .product__info-buy,
     .product__info-color,
     .product__info-quantity,
@@ -218,10 +222,14 @@
         display: none;
     }
     .product__info-dcrs-price {
-        justify-content: space-around;
+        display: none;
     }
     .product__info-dcrs-currentprice {
         font-size: 3rem;
+    }
+    .product__info-guaranteed {
+        margin-top: 5px;
+        padding: 16px 0 4px 0;
     }
 }
 
