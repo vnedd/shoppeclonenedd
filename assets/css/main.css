@@ -3336,6 +3336,8 @@
     padding: 20px 0 10px 0;
     font-size: 1.4rem;
     color: var(--black-color);
+    text-align: left;
+
 }
 
 .product__app-buycart-cart-color-list {
@@ -3361,6 +3363,8 @@
     padding: 10px 0 10px 0;
     font-size: 1.4rem;
     color: var(--black-color);
+    text-align: left;
+
 }
 
 .product__app-buycart-cart-size-list {
@@ -3399,7 +3403,7 @@
 
 .product__app-buycart-cart-quantity-title {
     font-size: 1.4rem;
-    color: var(black);
+    color: var(--black-color);
 
 }
 
@@ -3544,6 +3548,7 @@
     padding: 20px 0 10px 0;
     font-size: 1.4rem;
     color: var(--black-color);
+    text-align: left;
 }
 
 .product__app-buycart-buy-color-list {
@@ -3569,6 +3574,8 @@
     padding: 10px 0 10px 0;
     font-size: 1.4rem;
     color: var(--black-color);
+    text-align: left;
+
 }
 
 .product__app-buycart-buy-size-list {
@@ -3607,7 +3614,7 @@
 
 .product__app-buycart-buy-quantity-title {
     font-size: 1.4rem;
-    color: var(black);
+    color: var(--black-color);
 
 }
 
