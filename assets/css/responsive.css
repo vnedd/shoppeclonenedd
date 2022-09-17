@@ -252,6 +252,9 @@
     .product__info-dcrs-status {
         margin-bottom: 10px;
     }
+    .body__slide-wrapper {
+        margin-top: 60px;
+    }
 }
 
 @media (min-width: 1024px) {
